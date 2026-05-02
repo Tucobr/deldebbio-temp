@@ -1,65 +1,40 @@
 <!DOCTYPE html>
-<html>
-<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>deldebbio.cc</title>
 <link rel="icon" href="/favicon.png">
 
 <style>
-body {
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 0 10px;
-  font-family: Arial, sans-serif;
+body{
+  max-width:700px;
+  margin:40px auto;
+  padding:0 10px;
+  font-family:Arial, sans-serif;
 }
-
-img {
-  width: 100%;
-  border-radius: 8px;
-  display: block;
+img{
+  width:100%;
+  display:block;
+  border-radius:8px;
 }
-
-.item {
-  margin-bottom: 40px;
-}
-
-.titulo {
-  text-align: center;
-  margin-top: 10px;
+div{
+  margin-bottom:40px;
+  text-align:center;
 }
 </style>
-</head>
 
-<body>
+<div><img src="titulomaior.jpg"></div>
 
-<button onclick="exportar()">EXPORTAR</button>
-
-<div class="item">
-  <img src="titulomaior.jpg">
-</div>
-
-<div class="item">
+<div>
   <img src="madonna.jpg">
-  <div class="titulo">Madonna Del Debbio ☹ 11-05-2023</div>
+  Madonna Del Debbio ☹ 11-05-2023
 </div>
 
-<div class="item">
+<div>
   <img src="bartolomeu.jpg">
-  <div class="titulo">Bartolomeu Del Debbio ☹ 10-01-2026</div>
+  Bartolomeu Del Debbio ☹ 10-01-2026
 </div>
 
-<div class="item">
+<div>
   <img src="bobby.jpg">
-  <div class="titulo">Bobby Del Debbio</div>
+  Bobby Del Debbio
 </div>
-
-<script>
-function exportar() {
-  navigator.clipboard.writeText(document.documentElement.outerHTML);
-  alert("HTML copiado!");
-}
-</script>
-
-</body>
-</html>
